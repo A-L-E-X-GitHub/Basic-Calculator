@@ -58,6 +58,7 @@
             double number02 = GetValidNumber($"Enter the second number to {operation}: ");
             double result = 0;
 
+            // Determine what type of operation to use based on the 'operation' string.
             switch (operation)
             {
                 case "Add":
